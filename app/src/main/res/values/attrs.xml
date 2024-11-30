@@ -1,0 +1,29 @@
+<resources>
+    <declare-styleable name="DreamLogo">
+        <attr
+            name="size"
+            format="float" />
+        <attr
+            name="time"
+            format="integer" />
+        <attr
+            name="titleContext"
+            format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SlideView">
+        <attr
+            name="heightLimit"
+            format="integer" />
+        <attr
+            name="titleStyle"
+            format="string" />
+    </declare-styleable>
+    <declare-styleable name="NightHandoffView">
+        <attr
+            name="proportion"
+            format="float" />
+        <attr
+            name="lightLines"
+            format="integer" />
+    </declare-styleable>
+</resources>

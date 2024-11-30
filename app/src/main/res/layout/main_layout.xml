@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    android:id="@+id/main_backg">
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:src="@drawable/logo_original"
+            android:transitionName="logo_image"
+            android:id="@+id/main_logo_image" />
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/logo_backg">
+
+            <dream.widget.DreamLogo
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                app:titleContext="false"
+                android:id="@+id/main_logo" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

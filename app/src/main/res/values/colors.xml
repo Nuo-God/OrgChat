@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#FFFFFBFE</color>
+    <color name="title_text_color">#FF232323</color>
+    <color name="notes_text_color">#FF5E5D5E</color>
+    <color name="background_color_back">#FF1C1B1F</color>
+    <color name="button_1">#FF536696</color>
+    <color name="button_2">#FF6376a6</color>
+    <color name="ripple_color">#22445055</color>
+</resources>

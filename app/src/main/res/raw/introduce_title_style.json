@@ -1,0 +1,23 @@
+[
+	{
+		"width": "match_parent",
+		"height": "60dp",
+		"context": [
+			{
+				"width": "60dp",
+				"height": "60dp",
+				"context": [
+					{
+						"alpha": "0"
+					},
+					{
+						"alpha": "255"
+					}
+				]
+			},
+			{
+  			"alpha": "1"
+			}
+		]
+	}
+]
